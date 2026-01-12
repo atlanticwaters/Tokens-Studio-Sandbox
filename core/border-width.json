@@ -1,0 +1,67 @@
+{
+  "border-0": {
+    "$value": 0,
+    "$type": "number",
+    "$description": "Auto: border-0 = 0"
+  },
+  "border-1": {
+    "$value": 1,
+    "$type": "number",
+    "$description": "Auto: border-1 = 1"
+  },
+  "border-2": {
+    "$value": 2,
+    "$type": "number",
+    "$description": "Auto: border-2 = 2"
+  },
+  "border-3": {
+    "$value": 3,
+    "$type": "number",
+    "$description": "Auto: border-3 = 3"
+  },
+  "border-4": {
+    "$value": 4,
+    "$type": "number",
+    "$description": "Auto: border-4 = 4"
+  },
+  "border-5": {
+    "$value": 6,
+    "$type": "number",
+    "$description": "Auto: border-5 = 6"
+  },
+  "border-6": {
+    "$value": 8,
+    "$type": "number",
+    "$description": "Auto: border-6 = 8"
+  },
+  "border-7": {
+    "$value": 12,
+    "$type": "number",
+    "$description": "Auto: border-7 = 12"
+  },
+  "border-8": {
+    "$value": 16,
+    "$type": "number",
+    "$description": "Auto: border-8 = 16"
+  },
+  "border-9": {
+    "$value": 20,
+    "$type": "number",
+    "$description": "Auto: border-9 = 20"
+  },
+  "border-10": {
+    "$value": 24,
+    "$type": "number",
+    "$description": "Auto: border-10 = 24"
+  },
+  "border-11": {
+    "$value": 28,
+    "$type": "number",
+    "$description": "Auto: border-11 = 28"
+  },
+  "border-12": {
+    "$value": 32,
+    "$type": "number",
+    "$description": "Auto: border-12 = 32"
+  }
+}

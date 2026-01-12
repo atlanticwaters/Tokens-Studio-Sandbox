@@ -1,0 +1,27 @@
+{
+  "paddingx": {
+    "$value": 0,
+    "$type": "number",
+    "$description": "Auto: paddingx = 0"
+  },
+  "paddingy": {
+    "$value": 0,
+    "$type": "number",
+    "$description": "Auto: paddingy = 0"
+  },
+  "gap": {
+    "$value": 0,
+    "$type": "number",
+    "$description": "Auto: gap = 0"
+  },
+  "minheight": {
+    "$value": 0,
+    "$type": "number",
+    "$description": "Auto: minheight = 0"
+  },
+  "radius": {
+    "$value": 0,
+    "$type": "number",
+    "$description": "Auto: radius = 0"
+  }
+}

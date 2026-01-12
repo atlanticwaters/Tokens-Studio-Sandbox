@@ -1,0 +1,11 @@
+{
+  "colors": {
+    "accents": {
+      "blue": {
+        "$value": "{brand.brand-300}",
+        "$type": "color",
+        "$description": "Auto: colors.accents.blue = {brand.brand-300}"
+      }
+    }
+  }
+}

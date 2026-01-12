@@ -1,0 +1,1904 @@
+{
+  "background": {
+    "surface-color": {
+      "greige": {
+        "$value": "{surface.neutral}",
+        "$type": "color",
+        "$description": "Greige surface background"
+      },
+      "secondary": {
+        "$value": "{surface.container.transparent-10}",
+        "$type": "color",
+        "$description": "Secondary surface background"
+      },
+      "tertiary": {
+        "$value": "{surface.tertiary}",
+        "$type": "color",
+        "$description": "Tertiary surface background"
+      },
+      "inverse": {
+        "$value": "{surface.inverse}",
+        "$type": "color",
+        "$description": "Inverse surface background"
+      }
+    },
+    "container-color": {
+      "white": {
+        "$value": "{surface.container.white}",
+        "$type": "color",
+        "$description": "White container background"
+      },
+      "transparent-05": {
+        "$value": "{surface.container.transparent-05}",
+        "$type": "color",
+        "$description": "5% transparent container"
+      },
+      "transparent-10": {
+        "$value": "{surface.container.transparent-10}",
+        "$type": "color",
+        "$description": "10% transparent container"
+      },
+      "transparent-20": {
+        "$value": "{surface.container.transparent-20}",
+        "$type": "color",
+        "$description": "20% transparent container"
+      },
+      "inverse": {
+        "$value": "{surface.container.inverse}",
+        "$type": "color",
+        "$description": "Inverse container"
+      },
+      "brand": {
+        "$value": "{surface.container.brand}",
+        "$type": "color",
+        "$description": "Brand container"
+      },
+      "brand-accent": {
+        "$value": "{surface.container.brand-accent}",
+        "$type": "color",
+        "$description": "Brand accent container"
+      },
+      "greige": {
+        "$value": "{surface.container.neutral}",
+        "$type": "color",
+        "$description": "Greige container"
+      }
+    },
+    "overlay-color": {
+      "page-scrim": {
+        "$value": "{surface.scrim}",
+        "$type": "color",
+        "$description": "Page scrim overlay"
+      }
+    },
+    "button-color": {
+      "ghost-filled": {
+        "default": {
+          "$value": "{action.ghost.default}",
+          "$type": "color",
+          "$description": "Ghost button default background"
+        },
+        "pressed": {
+          "$value": "{action.ghost.pressed}",
+          "$type": "color",
+          "$description": "Ghost button pressed background"
+        },
+        "inactive": {
+          "$value": "{action.ghost.disabled}",
+          "$type": "color",
+          "$description": "Ghost button disabled background"
+        }
+      },
+      "white-filled": {
+        "default": {
+          "$value": "{action.white.default}",
+          "$type": "color",
+          "$description": "White button default background"
+        },
+        "inactive": {
+          "$value": "{action.white.disabled}",
+          "$type": "color",
+          "$description": "White button disabled background"
+        }
+      },
+      "brand-gradient-filled": {
+        "default": {
+          "$value": "{text.on-brand}",
+          "$type": "color",
+          "$description": "Brand gradient button default"
+        },
+        "inactive": {
+          "$value": "{action.secondary.default}",
+          "$type": "color",
+          "$description": "Brand gradient button disabled"
+        }
+      },
+      "brand-filled": {
+        "default": {
+          "$value": "{action.primary.default}",
+          "$type": "color",
+          "$description": "Brand button default background"
+        },
+        "inactive": {
+          "$value": "{action.primary.disabled}",
+          "$type": "color",
+          "$description": "Brand button disabled background"
+        }
+      },
+      "transparent-10": {
+        "default": {
+          "$value": "{action.tertiary.default}",
+          "$type": "color",
+          "$description": "Transparent 10 button default"
+        },
+        "pressed": {
+          "$value": "{action.tertiary.pressed}",
+          "$type": "color",
+          "$description": "Transparent 10 button pressed"
+        },
+        "active": {
+          "$value": "{action.tertiary.active}",
+          "$type": "color",
+          "$description": "Transparent 10 button active"
+        },
+        "inactive": {
+          "$value": "{action.tertiary.disabled}",
+          "$type": "color",
+          "$description": "Transparent 10 button disabled"
+        }
+      },
+      "transparent-05": {
+        "default": {
+          "$value": "{action.secondary.default}",
+          "$type": "color",
+          "$description": "Transparent 05 button default"
+        },
+        "pressed": {
+          "$value": "{action.secondary.pressed}",
+          "$type": "color",
+          "$description": "Transparent 05 button pressed"
+        },
+        "active": {
+          "$value": "{interactive.active}",
+          "$type": "color",
+          "$description": "Transparent 05 button active"
+        },
+        "inactive": {
+          "$value": "{action.secondary.disabled}",
+          "$type": "color",
+          "$description": "Transparent 05 button disabled"
+        }
+      }
+    },
+    "selector-color": {
+      "outline": {
+        "default": {
+          "$value": "{selector.outline.default}",
+          "$type": "color",
+          "$description": "Outline selector default"
+        },
+        "pressed": {
+          "$value": "{selector.outline.pressed}",
+          "$type": "color",
+          "$description": "Outline selector pressed"
+        },
+        "selected": {
+          "$value": "{selector.outline.selected}",
+          "$type": "color",
+          "$description": "Outline selector selected"
+        },
+        "selected-accent": {
+          "$value": "{selector.outline.selected-accent}",
+          "$type": "color",
+          "$description": "Outline selector accent selected"
+        },
+        "inactive": {
+          "$value": "{selector.outline.disabled}",
+          "$type": "color",
+          "$description": "Outline selector disabled"
+        }
+      },
+      "filled": {
+        "default": {
+          "$value": "{selector.filled.default}",
+          "$type": "color",
+          "$description": "Filled selector default"
+        },
+        "pressed": {
+          "$value": "{selector.filled.pressed}",
+          "$type": "color",
+          "$description": "Filled selector pressed"
+        },
+        "selected": {
+          "$value": "{selector.filled.selected}",
+          "$type": "color",
+          "$description": "Filled selector selected"
+        },
+        "inactive": {
+          "$value": "{selector.filled.disabled}",
+          "$type": "color",
+          "$description": "Filled selector disabled"
+        },
+        "transparent": {
+          "$value": "{selector.filled.transparent}",
+          "$type": "color",
+          "$description": "Filled selector transparent"
+        },
+        "switch-handle": {
+          "default": {
+            "$value": "{selector.filled.switch-handle.default}",
+            "$type": "color",
+            "$description": "Switch handle default"
+          },
+          "selected": {
+            "$value": "{selector.filled.switch-handle.selected}",
+            "$type": "color",
+            "$description": "Switch handle selected"
+          }
+        }
+      }
+    },
+    "action-color": {
+      "primary": {
+        "$value": "{brand.brand-300}",
+        "$type": "color",
+        "$description": "Primary action color"
+      },
+      "secondary": {
+        "$value": "{neutrals.white}",
+        "$type": "color",
+        "$description": "Secondary action color"
+      }
+    },
+    "input-color": {
+      "white-outlined": {
+        "default": {
+          "$value": "{input.background.default}",
+          "$type": "color",
+          "$description": "White outlined input default"
+        },
+        "pressed": {
+          "$value": "{input.background.pressed}",
+          "$type": "color",
+          "$description": "White outlined input pressed"
+        },
+        "inactive": {
+          "$value": "{input.background.disabled}",
+          "$type": "color",
+          "$description": "White outlined input disabled"
+        }
+      },
+      "transparent-10": {
+        "default": {
+          "$value": "{input.background.transparent}",
+          "$type": "color",
+          "$description": "Transparent input default"
+        }
+      },
+      "brand-filled": {
+        "default": {
+          "$value": "{input.background.accent}",
+          "$type": "color",
+          "$description": "Brand filled input default"
+        }
+      }
+    },
+    "feedback-color": {
+      "informational": {
+        "accent-1": {
+          "$value": "{feedback.info.background}",
+          "$type": "color",
+          "$description": "Informational feedback background"
+        },
+        "accent-2": {
+          "$value": "{feedback.info.foreground}",
+          "$type": "color",
+          "$description": "Informational feedback foreground"
+        }
+      },
+      "warning": {
+        "accent-1": {
+          "$value": "{feedback.warning.background}",
+          "$type": "color",
+          "$description": "Warning feedback background"
+        },
+        "accent-2": {
+          "$value": "{feedback.warning.foreground}",
+          "$type": "color",
+          "$description": "Warning feedback foreground"
+        }
+      },
+      "success": {
+        "accent-1": {
+          "$value": "{feedback.success.background}",
+          "$type": "color",
+          "$description": "Success feedback background"
+        },
+        "accent-2": {
+          "$value": "{feedback.success.foreground}",
+          "$type": "color",
+          "$description": "Success feedback foreground"
+        }
+      },
+      "error": {
+        "accent-1": {
+          "$value": "{feedback.error.background}",
+          "$type": "color",
+          "$description": "Error feedback background"
+        },
+        "accent-2": {
+          "$value": "{feedback.error.foreground}",
+          "$type": "color",
+          "$description": "Error feedback foreground"
+        }
+      }
+    },
+    "accent-color": {
+      "blue": {
+        "$value": "{accent.info}",
+        "$type": "color",
+        "$description": "Blue accent"
+      },
+      "yellow": {
+        "$value": "{accent.warning}",
+        "$type": "color",
+        "$description": "Yellow accent"
+      },
+      "greige": {
+        "$value": "{accent.neutral}",
+        "$type": "color",
+        "$description": "Greige accent"
+      },
+      "dark-greige": {
+        "$value": "{accent.dark-greige}",
+        "$type": "color",
+        "$description": "Dark greige accent"
+      },
+      "red": {
+        "$value": "{accent.red}",
+        "$type": "color",
+        "$description": "Red accent"
+      },
+      "brand": {
+        "$value": "{accent.brand}",
+        "$type": "color",
+        "$description": "Brand accent"
+      },
+      "green": {
+        "$value": "{accent.green}",
+        "$type": "color",
+        "$description": "Green accent"
+      },
+      "brown": {
+        "$value": "{accent.brown}",
+        "$type": "color",
+        "$description": "Brown accent"
+      }
+    },
+    "container": {
+      "primary": {
+        "$value": "{surface.container.primary}",
+        "$type": "color",
+        "$description": "Primary container"
+      },
+      "secondary": {
+        "$value": "{surface.container.primary}",
+        "$type": "color",
+        "$description": "Secondary container"
+      }
+    }
+  },
+  "border": {
+    "on-container": {
+      "default": {
+        "$value": "{border.default}",
+        "$type": "color",
+        "$description": "Default border on container"
+      },
+      "pressed": {
+        "$value": "{border.pressed}",
+        "$type": "color",
+        "$description": "Pressed border on container"
+      },
+      "active": {
+        "$value": "{border.pressed}",
+        "$type": "color",
+        "$description": "Active border on container"
+      },
+      "inactive": {
+        "$value": "{border.disabled}",
+        "$type": "color",
+        "$description": "Disabled border on container"
+      },
+      "inverse": {
+        "$value": "{border.inverse}",
+        "$type": "color",
+        "$description": "Inverse border on container"
+      }
+    },
+    "radius": {
+      "none": {
+        "$value": "{radius-0}",
+        "$type": "number",
+        "$description": "No radius"
+      },
+      "xs": {
+        "$value": "{radius-1}",
+        "$type": "number",
+        "$description": "Extra small radius"
+      },
+      "sm": {
+        "$value": "{radius-2}",
+        "$type": "number",
+        "$description": "Small radius"
+      },
+      "md": {
+        "$value": "{radius-3}",
+        "$type": "number",
+        "$description": "Medium radius"
+      },
+      "lg": {
+        "$value": "{radius-5}",
+        "$type": "number",
+        "$description": "Large radius"
+      },
+      "xl": {
+        "$value": "{radius-6}",
+        "$type": "number",
+        "$description": "Extra large radius"
+      },
+      "2xl": {
+        "$value": "{radius-7}",
+        "$type": "number",
+        "$description": "2x large radius"
+      },
+      "3xl": {
+        "$value": "{radius-8}",
+        "$type": "number",
+        "$description": "3x large radius"
+      },
+      "full": {
+        "$value": "{radius-999}",
+        "$type": "number",
+        "$description": "Full/pill radius"
+      }
+    },
+    "width": {
+      "none": {
+        "$value": "{border-0}",
+        "$type": "number",
+        "$description": "No border"
+      },
+      "xs": {
+        "$value": "{border-1}",
+        "$type": "number",
+        "$description": "Extra small border"
+      },
+      "sm": {
+        "$value": "{border-2}",
+        "$type": "number",
+        "$description": "Small border"
+      },
+      "md": {
+        "$value": "{border-4}",
+        "$type": "number",
+        "$description": "Medium border"
+      },
+      "lg": {
+        "$value": "{border-6}",
+        "$type": "number",
+        "$description": "Large border"
+      },
+      "xl": {
+        "$value": "{border-7}",
+        "$type": "number",
+        "$description": "Extra large border"
+      },
+      "2xl": {
+        "$value": "{border-8}",
+        "$type": "number",
+        "$description": "2x large border"
+      }
+    },
+    "button-color": {
+      "default": {
+        "$value": "{button.border.default}",
+        "$type": "color",
+        "$description": "Button border default"
+      },
+      "pressed": {
+        "$value": "{button.border.pressed}",
+        "$type": "color",
+        "$description": "Button border pressed"
+      },
+      "inactive": {
+        "$value": "{button.border.disabled}",
+        "$type": "color",
+        "$description": "Button border disabled"
+      },
+      "focus": {
+        "$value": "{button.border.focus}",
+        "$type": "color",
+        "$description": "Button border focus"
+      },
+      "accent": {
+        "$value": "{button.border.accent}",
+        "$type": "color",
+        "$description": "Button border accent"
+      },
+      "accent-2": {
+        "$value": "{button.border.accent-2}",
+        "$type": "color",
+        "$description": "Button border accent 2"
+      },
+      "orange-outline": {
+        "default": {
+          "$value": "{button.border.brand-outline.default}",
+          "$type": "color",
+          "$description": "Orange outline button border default"
+        },
+        "inactive": {
+          "$value": "{button.border.brand-outline.disabled}",
+          "$type": "color",
+          "$description": "Orange outline button border disabled"
+        }
+      }
+    },
+    "input-color": {
+      "default": {
+        "$value": "{input.border.default}",
+        "$type": "color",
+        "$description": "Input border default"
+      },
+      "pressed": {
+        "$value": "{input.border.pressed}",
+        "$type": "color",
+        "$description": "Input border pressed"
+      },
+      "inactive": {
+        "$value": "{input.border.disabled}",
+        "$type": "color",
+        "$description": "Input border disabled"
+      },
+      "focus": {
+        "$value": "{input.border.focus}",
+        "$type": "color",
+        "$description": "Input border focus"
+      },
+      "active": {
+        "$value": "{input.border.active}",
+        "$type": "color",
+        "$description": "Input border active"
+      },
+      "accent": {
+        "$value": "{input.border.accent}",
+        "$type": "color",
+        "$description": "Input border accent"
+      },
+      "accent-2": {
+        "$value": "{input.border.accent-2}",
+        "$type": "color",
+        "$description": "Input border accent 2"
+      },
+      "success": {
+        "$value": "{input.border.success}",
+        "$type": "color",
+        "$description": "Input border success"
+      },
+      "warning": {
+        "$value": "{input.border.warning}",
+        "$type": "color",
+        "$description": "Input border warning"
+      },
+      "error": {
+        "$value": "{input.border.error}",
+        "$type": "color",
+        "$description": "Input border error"
+      }
+    },
+    "selector-color": {
+      "outline": {
+        "default": {
+          "$value": "{selector.border.outline.default}",
+          "$type": "color",
+          "$description": "Outline selector border default"
+        },
+        "pressed": {
+          "$value": "{selector.border.outline.pressed}",
+          "$type": "color",
+          "$description": "Outline selector border pressed"
+        },
+        "selected": {
+          "$value": "{selector.border.outline.selected}",
+          "$type": "color",
+          "$description": "Outline selector border selected"
+        },
+        "selected-accent": {
+          "$value": "{selector.border.outline.selected-accent}",
+          "$type": "color",
+          "$description": "Outline selector border accent"
+        },
+        "inactive": {
+          "$value": "{selector.border.outline.disabled}",
+          "$type": "color",
+          "$description": "Outline selector border disabled"
+        }
+      },
+      "filled": {
+        "default": {
+          "$value": "{selector.border.filled.default}",
+          "$type": "color",
+          "$description": "Filled selector border default"
+        },
+        "pressed": {
+          "$value": "{selector.border.filled.pressed}",
+          "$type": "color",
+          "$description": "Filled selector border pressed"
+        },
+        "selected": {
+          "$value": "{selector.border.filled.selected}",
+          "$type": "color",
+          "$description": "Filled selector border selected"
+        },
+        "inactive": {
+          "$value": "{selector.border.filled.disabled}",
+          "$type": "color",
+          "$description": "Filled selector border disabled"
+        }
+      }
+    },
+    "color": {
+      "primary": {
+        "$value": "{surface.container.primary}",
+        "$type": "color",
+        "$description": "Primary border color"
+      },
+      "focus": {
+        "$value": "{surface.container.primary}",
+        "$type": "color",
+        "$description": "Focus border color"
+      }
+    }
+  },
+  "text": {
+    "on-surface-color": {
+      "primary": {
+        "$value": "{text.primary}",
+        "$type": "color",
+        "$description": "Primary text on surface"
+      },
+      "secondary": {
+        "$value": "{text.secondary}",
+        "$type": "color",
+        "$description": "Secondary text on surface"
+      },
+      "tertiary": {
+        "$value": "{text.tertiary}",
+        "$type": "color",
+        "$description": "Tertiary text on surface"
+      },
+      "quatrenary": {
+        "$value": "{text.quaternary}",
+        "$type": "color",
+        "$description": "Quaternary text on surface"
+      },
+      "inverse": {
+        "$value": "{text.inverse}",
+        "$type": "color",
+        "$description": "Inverse text on surface"
+      },
+      "inactive": {
+        "$value": "{text.disabled}",
+        "$type": "color",
+        "$description": "Disabled text on surface"
+      },
+      "accent": {
+        "$value": "{text.accent}",
+        "$type": "color",
+        "$description": "Accent text on surface"
+      },
+      "accent-2": {
+        "$value": "{text.quaternary}",
+        "$type": "color",
+        "$description": "Accent 2 text on surface"
+      },
+      "success": {
+        "$value": "{feedback.success.foreground}",
+        "$type": "color",
+        "$description": "Success text on surface"
+      },
+      "warning": {
+        "$value": "{feedback.warning.foreground}",
+        "$type": "color",
+        "$description": "Warning text on surface"
+      },
+      "error": {
+        "$value": "{feedback.error.foreground}",
+        "$type": "color",
+        "$description": "Error text on surface"
+      },
+      "informational": {
+        "$value": "{feedback.info.foreground}",
+        "$type": "color",
+        "$description": "Informational text on surface"
+      },
+      "link": {
+        "$value": "{surface.container.primary}",
+        "$type": "color",
+        "$description": "Link text"
+      },
+      "placeholder": {
+        "$value": "{surface.container.primary}",
+        "$type": "color",
+        "$description": "Placeholder text"
+      },
+      "disabled": {
+        "$value": "{surface.container.primary}",
+        "$type": "color",
+        "$description": "Disabled text"
+      },
+      "destructive": {
+        "$value": "{surface.container.primary}",
+        "$type": "color",
+        "$description": "Destructive text"
+      }
+    },
+    "on-container-color": {
+      "primary": {
+        "$value": "{text.on-container.primary}",
+        "$type": "color",
+        "$description": "Primary text on container"
+      },
+      "secondary": {
+        "$value": "{text.on-container.secondary}",
+        "$type": "color",
+        "$description": "Secondary text on container"
+      },
+      "tertiary": {
+        "$value": "{text.on-container.tertiary}",
+        "$type": "color",
+        "$description": "Tertiary text on container"
+      },
+      "quatrenary": {
+        "$value": "{text.on-container.quaternary}",
+        "$type": "color",
+        "$description": "Quaternary text on container"
+      },
+      "inverse": {
+        "$value": "{text.on-container.inverse}",
+        "$type": "color",
+        "$description": "Inverse text on container"
+      },
+      "inactive": {
+        "$value": "{text.on-container.disabled}",
+        "$type": "color",
+        "$description": "Disabled text on container"
+      },
+      "accent": {
+        "$value": "{text.on-container.accent}",
+        "$type": "color",
+        "$description": "Accent text on container"
+      },
+      "accent-2": {
+        "$value": "{text.on-container.accent-2}",
+        "$type": "color",
+        "$description": "Accent 2 text on container"
+      },
+      "success": {
+        "$value": "{bottle-green.bottle-green-500}",
+        "$type": "color",
+        "$description": "Success text on container"
+      },
+      "warning": {
+        "$value": "{lemon.lemon-500}",
+        "$type": "color",
+        "$description": "Warning text on container"
+      },
+      "error": {
+        "$value": "{cinnabar.cinnabar-500}",
+        "$type": "color",
+        "$description": "Error text on container"
+      },
+      "informational": {
+        "$value": "{moonlight.moonlight-500}",
+        "$type": "color",
+        "$description": "Informational text on container"
+      }
+    },
+    "button-color": {
+      "orange-filled": {
+        "default": {
+          "$value": "{button.text.brand.default}",
+          "$type": "color",
+          "$description": "Orange button text default"
+        },
+        "inactive": {
+          "$value": "{button.text.brand.disabled}",
+          "$type": "color",
+          "$description": "Orange button text disabled"
+        }
+      },
+      "orange-outline": {
+        "default": {
+          "$value": "{button.text.brand-outline.default}",
+          "$type": "color",
+          "$description": "Orange outline button text default"
+        },
+        "inactive": {
+          "$value": "{button.text.brand-outline.disabled}",
+          "$type": "color",
+          "$description": "Orange outline button text disabled"
+        }
+      },
+      "transparent-05-filled": {
+        "default": {
+          "$value": "{button.text.secondary.default}",
+          "$type": "color",
+          "$description": "Transparent 05 button text default"
+        },
+        "inactive": {
+          "$value": "{button.text.secondary.disabled}",
+          "$type": "color",
+          "$description": "Transparent 05 button text disabled"
+        }
+      },
+      "transparent-10-filled": {
+        "default": {
+          "$value": "{button.text.tertiary.default}",
+          "$type": "color",
+          "$description": "Transparent 10 button text default"
+        },
+        "inactive": {
+          "$value": "{button.text.tertiary.disabled}",
+          "$type": "color",
+          "$description": "Transparent 10 button text disabled"
+        }
+      },
+      "gradient-filled": {
+        "default": {
+          "$value": "{button.text.gradient.default}",
+          "$type": "color",
+          "$description": "Gradient button text default"
+        },
+        "inactive": {
+          "$value": "{button.text.gradient.disabled}",
+          "$type": "color",
+          "$description": "Gradient button text disabled"
+        }
+      },
+      "white-filled": {
+        "default": {
+          "$value": "{button.text.white.default}",
+          "$type": "color",
+          "$description": "White button text default"
+        },
+        "inactive": {
+          "$value": "{button.text.white.disabled}",
+          "$type": "color",
+          "$description": "White button text disabled"
+        }
+      },
+      "ghost-filled": {
+        "default": {
+          "$value": "{button.text.ghost.default}",
+          "$type": "color",
+          "$description": "Ghost button text default"
+        },
+        "inactive": {
+          "$value": "{button.text.ghost.disabled}",
+          "$type": "color",
+          "$description": "Ghost button text disabled"
+        }
+      }
+    },
+    "selector-color": {
+      "default": {
+        "$value": "{selector.text.default}",
+        "$type": "color",
+        "$description": "Selector text default"
+      },
+      "active": {
+        "$value": "{selector.text.active}",
+        "$type": "color",
+        "$description": "Selector text active"
+      },
+      "selected": {
+        "$value": "{selector.text.selected}",
+        "$type": "color",
+        "$description": "Selector text selected"
+      },
+      "inactive": {
+        "$value": "{selector.text.disabled}",
+        "$type": "color",
+        "$description": "Selector text disabled"
+      },
+      "outline": {
+        "default": {
+          "$value": "{selector.text.outline.default}",
+          "$type": "color",
+          "$description": "Outline selector text default"
+        },
+        "active": {
+          "$value": "{selector.text.outline.active}",
+          "$type": "color",
+          "$description": "Outline selector text active"
+        },
+        "selected": {
+          "$value": "{selector.text.outline.selected}",
+          "$type": "color",
+          "$description": "Outline selector text selected"
+        },
+        "inactive": {
+          "$value": "{selector.text.outline.disabled}",
+          "$type": "color",
+          "$description": "Outline selector text disabled"
+        }
+      },
+      "filled": {
+        "default": {
+          "$value": "{selector.text.outline.default}",
+          "$type": "color",
+          "$description": "Filled selector text default"
+        },
+        "active": {
+          "$value": "{selector.text.outline.active}",
+          "$type": "color",
+          "$description": "Filled selector text active"
+        },
+        "selected": {
+          "$value": "{selector.text.outline.selected}",
+          "$type": "color",
+          "$description": "Filled selector text selected"
+        },
+        "inactive": {
+          "$value": "{selector.text.outline.disabled}",
+          "$type": "color",
+          "$description": "Filled selector text disabled"
+        }
+      }
+    },
+    "input-color": {
+      "brand-filled": {
+        "default": {
+          "$value": "{input.text.brand}",
+          "$type": "color",
+          "$description": "Brand input text"
+        }
+      },
+      "white-outlined": {
+        "default": {
+          "$value": "{input.text.default}",
+          "$type": "color",
+          "$description": "White outlined input text"
+        }
+      },
+      "transparent-10": {
+        "default": {
+          "$value": "{input.text.transparent.default}",
+          "$type": "color",
+          "$description": "Transparent input text default"
+        },
+        "active": {
+          "$value": "{input.text.transparent.active}",
+          "$type": "color",
+          "$description": "Transparent input text active"
+        },
+        "inactive": {
+          "$value": "{input.text.transparent.disabled}",
+          "$type": "color",
+          "$description": "Transparent input text disabled"
+        }
+      }
+    },
+    "on": {
+      "$value": "{surface.container.primary}",
+      "$type": "color",
+      "$description": "Text on"
+    },
+    "on-brand-color": {
+      "primary": {
+        "$value": "{surface.container.primary}",
+        "$type": "color",
+        "$description": "Primary text on brand"
+      }
+    },
+    "on-primary-color": {
+      "primary": {
+        "$value": "{surface.container.primary}",
+        "$type": "color",
+        "$description": "Primary text on primary"
+      },
+      "secondary": {
+        "$value": "{surface.container.primary}",
+        "$type": "color",
+        "$description": "Secondary text on primary"
+      }
+    },
+    "on-error-color": {
+      "primary": {
+        "$value": "{surface.container.primary}",
+        "$type": "color",
+        "$description": "Primary text on error"
+      }
+    },
+    "on-success-color": {
+      "primary": {
+        "$value": "{surface.container.primary}",
+        "$type": "color",
+        "$description": "Primary text on success"
+      }
+    }
+  },
+  "icon": {
+    "input-color": {
+      "default": {
+        "$value": "{icon.input.default}",
+        "$type": "color",
+        "$description": "Input icon default"
+      },
+      "active": {
+        "$value": "{icon.input.active}",
+        "$type": "color",
+        "$description": "Input icon active"
+      },
+      "inactive": {
+        "$value": "{icon.input.disabled}",
+        "$type": "color",
+        "$description": "Input icon disabled"
+      }
+    },
+    "on-surface-color": {
+      "primary": {
+        "$value": "{icon.primary}",
+        "$type": "color",
+        "$description": "Primary icon on surface"
+      },
+      "secondary": {
+        "$value": "{icon.secondary}",
+        "$type": "color",
+        "$description": "Secondary icon on surface"
+      },
+      "tertiary": {
+        "$value": "{icon.tertiary}",
+        "$type": "color",
+        "$description": "Tertiary icon on surface"
+      },
+      "inverse": {
+        "$value": "{icon.inverse}",
+        "$type": "color",
+        "$description": "Inverse icon on surface"
+      },
+      "inactive": {
+        "$value": "{icon.disabled}",
+        "$type": "color",
+        "$description": "Disabled icon on surface"
+      },
+      "accent": {
+        "$value": "{icon.accent}",
+        "$type": "color",
+        "$description": "Accent icon on surface"
+      },
+      "accent-2": {
+        "$value": "{icon.accent-2}",
+        "$type": "color",
+        "$description": "Accent 2 icon on surface"
+      },
+      "success": {
+        "$value": "{feedback.success.foreground}",
+        "$type": "color",
+        "$description": "Success icon on surface"
+      },
+      "warning": {
+        "$value": "{feedback.warning.foreground}",
+        "$type": "color",
+        "$description": "Warning icon on surface"
+      },
+      "danger": {
+        "$value": "{feedback.warning.foreground}",
+        "$type": "color",
+        "$description": "Danger icon on surface"
+      },
+      "error": {
+        "$value": "{feedback.error.foreground}",
+        "$type": "color",
+        "$description": "Error icon on surface"
+      },
+      "informational": {
+        "$value": "{feedback.info.foreground}",
+        "$type": "color",
+        "$description": "Informational icon on surface"
+      }
+    },
+    "on-container-color": {
+      "primary": {
+        "$value": "{icon.on-container.primary}",
+        "$type": "color",
+        "$description": "Primary icon on container"
+      },
+      "secondary": {
+        "$value": "{icon.on-container.secondary}",
+        "$type": "color",
+        "$description": "Secondary icon on container"
+      },
+      "tertiary": {
+        "$value": "{icon.on-container.tertiary}",
+        "$type": "color",
+        "$description": "Tertiary icon on container"
+      },
+      "inverse": {
+        "$value": "{icon.on-container.inverse}",
+        "$type": "color",
+        "$description": "Inverse icon on container"
+      },
+      "inactive": {
+        "$value": "{icon.on-container.disabled}",
+        "$type": "color",
+        "$description": "Disabled icon on container"
+      },
+      "accent": {
+        "$value": "{icon.on-container.accent}",
+        "$type": "color",
+        "$description": "Accent icon on container"
+      },
+      "accent-2": {
+        "$value": "{icon.on-container.accent-2}",
+        "$type": "color",
+        "$description": "Accent 2 icon on container"
+      },
+      "success": {
+        "$value": "{feedback.success.foreground}",
+        "$type": "color",
+        "$description": "Success icon on container"
+      },
+      "warning": {
+        "$value": "{feedback.warning.foreground}",
+        "$type": "color",
+        "$description": "Warning icon on container"
+      },
+      "error": {
+        "$value": "{feedback.error.foreground}",
+        "$type": "color",
+        "$description": "Error icon on container"
+      },
+      "informational": {
+        "$value": "{feedback.info.foreground}",
+        "$type": "color",
+        "$description": "Informational icon on container"
+      }
+    },
+    "action-color": {
+      "orange-filled": {
+        "default": {
+          "$value": "{button.icon.brand.default}",
+          "$type": "color",
+          "$description": "Orange button icon default"
+        },
+        "inactive": {
+          "$value": "{button.icon.brand.disabled}",
+          "$type": "color",
+          "$description": "Orange button icon disabled"
+        }
+      },
+      "orange-outline": {
+        "default": {
+          "$value": "{button.icon.brand-outline.default}",
+          "$type": "color",
+          "$description": "Orange outline button icon default"
+        },
+        "inactive": {
+          "$value": "{button.icon.brand-outline.disabled}",
+          "$type": "color",
+          "$description": "Orange outline button icon disabled"
+        }
+      },
+      "transparent-05-filled": {
+        "default": {
+          "$value": "{button.icon.secondary.default}",
+          "$type": "color",
+          "$description": "Transparent 05 button icon default"
+        },
+        "inactive": {
+          "$value": "{button.icon.secondary.disabled}",
+          "$type": "color",
+          "$description": "Transparent 05 button icon disabled"
+        }
+      },
+      "transparent-10-filled": {
+        "default": {
+          "$value": "{button.icon.tertiary.default}",
+          "$type": "color",
+          "$description": "Transparent 10 button icon default"
+        },
+        "inactive": {
+          "$value": "{button.icon.tertiary.disabled}",
+          "$type": "color",
+          "$description": "Transparent 10 button icon disabled"
+        }
+      },
+      "gradient-filled": {
+        "default": {
+          "$value": "{button.icon.gradient.default}",
+          "$type": "color",
+          "$description": "Gradient button icon default"
+        },
+        "inactive": {
+          "$value": "{button.icon.gradient.disabled}",
+          "$type": "color",
+          "$description": "Gradient button icon disabled"
+        }
+      },
+      "white-filled": {
+        "default": {
+          "$value": "{button.icon.white.default}",
+          "$type": "color",
+          "$description": "White button icon default"
+        },
+        "inactive": {
+          "$value": "{button.icon.white.disabled}",
+          "$type": "color",
+          "$description": "White button icon disabled"
+        }
+      },
+      "ghost-filled": {
+        "default": {
+          "$value": "{button.icon.ghost.default}",
+          "$type": "color",
+          "$description": "Ghost button icon default"
+        },
+        "inactive": {
+          "$value": "{button.icon.ghost.disabled}",
+          "$type": "color",
+          "$description": "Ghost button icon disabled"
+        }
+      }
+    },
+    "selector-color": {
+      "outline": {
+        "default": {
+          "$value": "{selector.icon.outline.default}",
+          "$type": "color",
+          "$description": "Outline selector icon default"
+        },
+        "active": {
+          "$value": "{selector.icon.outline.active}",
+          "$type": "color",
+          "$description": "Outline selector icon active"
+        },
+        "selected": {
+          "$value": "{selector.icon.outline.selected}",
+          "$type": "color",
+          "$description": "Outline selector icon selected"
+        },
+        "inactive": {
+          "$value": "{selector.icon.outline.disabled}",
+          "$type": "color",
+          "$description": "Outline selector icon disabled"
+        }
+      },
+      "filled": {
+        "default": {
+          "$value": "{selector.icon.filled.default}",
+          "$type": "color",
+          "$description": "Filled selector icon default"
+        },
+        "active": {
+          "$value": "{selector.icon.filled.active}",
+          "$type": "color",
+          "$description": "Filled selector icon active"
+        },
+        "selected": {
+          "$value": "{selector.icon.filled.selected}",
+          "$type": "color",
+          "$description": "Filled selector icon selected"
+        },
+        "icononsurfacecolorprimary": {
+          "$value": "{surface.container.primary}",
+          "$type": "color",
+          "$description": "Icon on surface primary"
+        },
+        "iconcolorbrand": {
+          "$value": "{surface.container.primary}",
+          "$type": "color",
+          "$description": "Icon color brand"
+        },
+        "icononsurfacecolordisabled": {
+          "$value": "{surface.container.primary}",
+          "$type": "color",
+          "$description": "Icon on surface disabled"
+        },
+        "icononsurfacecolorsecondary": {
+          "$value": "{surface.container.primary}",
+          "$type": "color",
+          "$description": "Icon on surface secondary"
+        },
+        "icononsurfacecolortertiary": {
+          "$value": "{surface.container.primary}",
+          "$type": "color",
+          "$description": "Icon on surface tertiary"
+        },
+        "inactive": {
+          "$value": "{selector.icon.filled.disabled}",
+          "$type": "color",
+          "$description": "Filled selector icon disabled"
+        },
+        "icononbrandcolorprimary": {
+          "$value": "{surface.container.primary}",
+          "$type": "color",
+          "$description": "Icon on brand primary"
+        },
+        "iconcolorwarning": {
+          "$value": "{surface.container.primary}",
+          "$type": "color",
+          "$description": "Icon color warning"
+        }
+      }
+    },
+    "color": {
+      "primary": {
+        "$value": "{surface.container.primary}",
+        "$type": "color",
+        "$description": "Primary icon color"
+      },
+      "secondary": {
+        "$value": "{surface.container.primary}",
+        "$type": "color",
+        "$description": "Secondary icon color"
+      },
+      "tertiary": {
+        "$value": "{surface.container.primary}",
+        "$type": "color",
+        "$description": "Tertiary icon color"
+      }
+    }
+  },
+  "elevation": {
+    "lowest": {
+      "$value": "{shadow-50}",
+      "$type": "color",
+      "$description": "Lowest elevation shadow"
+    },
+    "low": {
+      "$value": "{shadow-100}",
+      "$type": "color",
+      "$description": "Low elevation shadow"
+    },
+    "med": {
+      "$value": "{shadow-200}",
+      "$type": "color",
+      "$description": "Medium elevation shadow"
+    },
+    "high": {
+      "$value": "{shadow-300}",
+      "$type": "color",
+      "$description": "High elevation shadow"
+    },
+    "highest": {
+      "$value": "{shadow-500}",
+      "$type": "color",
+      "$description": "Highest elevation shadow"
+    },
+    "position": {
+      "x-1": {
+        "$value": 1,
+        "$type": "number",
+        "$description": "X offset 1"
+      },
+      "x-2": {
+        "$value": 3,
+        "$type": "number",
+        "$description": "X offset 2"
+      },
+      "x-3": {
+        "$value": 4,
+        "$type": "number",
+        "$description": "X offset 3"
+      },
+      "x-4": {
+        "$value": 8,
+        "$type": "number",
+        "$description": "X offset 4"
+      },
+      "x-5": {
+        "$value": 16,
+        "$type": "number",
+        "$description": "X offset 5"
+      },
+      "y-1": {
+        "$value": 1,
+        "$type": "number",
+        "$description": "Y offset 1"
+      },
+      "y-2": {
+        "$value": 3,
+        "$type": "number",
+        "$description": "Y offset 2"
+      },
+      "y-3": {
+        "$value": 4,
+        "$type": "number",
+        "$description": "Y offset 3"
+      },
+      "y-4": {
+        "$value": 8,
+        "$type": "number",
+        "$description": "Y offset 4"
+      },
+      "y-5": {
+        "$value": 16,
+        "$type": "number",
+        "$description": "Y offset 5"
+      }
+    },
+    "blur-radius": {
+      "blur-1": {
+        "$value": 4,
+        "$type": "number",
+        "$description": "Blur 1"
+      },
+      "blur-2": {
+        "$value": 8,
+        "$type": "number",
+        "$description": "Blur 2"
+      },
+      "blur-3": {
+        "$value": 12,
+        "$type": "number",
+        "$description": "Blur 3"
+      },
+      "blur-4": {
+        "$value": 16,
+        "$type": "number",
+        "$description": "Blur 4"
+      },
+      "blur-5": {
+        "$value": 24,
+        "$type": "number",
+        "$description": "Blur 5"
+      }
+    }
+  },
+  "ui": {
+    "animation": {
+      "duration": {
+        "instant": {
+          "$value": 0,
+          "$type": "number",
+          "$description": "Instant duration"
+        },
+        "fast": {
+          "$value": 0,
+          "$type": "number",
+          "$description": "Fast duration"
+        },
+        "normal": {
+          "$value": 0,
+          "$type": "number",
+          "$description": "Normal duration"
+        },
+        "slow": {
+          "$value": 0,
+          "$type": "number",
+          "$description": "Slow duration"
+        },
+        "very-slow": {
+          "$value": 0,
+          "$type": "number",
+          "$description": "Very slow duration"
+        }
+      },
+      "movement": {
+        "easein": {
+          "$value": 0,
+          "$type": "number",
+          "$description": "Ease in"
+        },
+        "easeout": {
+          "$value": 0,
+          "$type": "number",
+          "$description": "Ease out"
+        },
+        "easeinout": {
+          "$value": 0,
+          "$type": "number",
+          "$description": "Ease in out"
+        },
+        "spring": {
+          "$value": 0,
+          "$type": "number",
+          "$description": "Spring"
+        }
+      }
+    },
+    "background": {
+      "navigationbar": {
+        "$value": "{surface.container.primary}",
+        "$type": "color",
+        "$description": "Navigation bar background"
+      },
+      "tabbar": {
+        "$value": "{surface.container.primary}",
+        "$type": "color",
+        "$description": "Tab bar background"
+      },
+      "toolbar": {
+        "$value": "{surface.container.primary}",
+        "$type": "color",
+        "$description": "Toolbar background"
+      },
+      "statusbar": {
+        "$value": "{surface.container.primary}",
+        "$type": "color",
+        "$description": "Status bar background"
+      },
+      "searchbar": {
+        "$value": "{surface.container.primary}",
+        "$type": "color",
+        "$description": "Search bar background"
+      },
+      "sheet-color": {
+        "$value": "{surface.container.primary}",
+        "$type": "color",
+        "$description": "Sheet background"
+      },
+      "modal-color": {
+        "$value": "{surface.container.primary}",
+        "$type": "color",
+        "$description": "Modal background"
+      },
+      "popover-color": {
+        "$value": "{surface.container.primary}",
+        "$type": "color",
+        "$description": "Popover background"
+      },
+      "menu-color": {
+        "$value": "{surface.container.primary}",
+        "$type": "color",
+        "$description": "Menu background"
+      },
+      "toast-color": {
+        "$value": "{surface.container.primary}",
+        "$type": "color",
+        "$description": "Toast background"
+      },
+      "surface-color": {
+        "primary": {
+          "$value": "{surface.container.primary}",
+          "$type": "color",
+          "$description": "Primary surface"
+        },
+        "elevated": {
+          "$value": "{surface.container.primary}",
+          "$type": "color",
+          "$description": "Elevated surface"
+        },
+        "grouped": {
+          "$value": "{surface.container.primary}",
+          "$type": "color",
+          "$description": "Grouped surface"
+        },
+        "secondary": {
+          "$value": "{surface.container.primary}",
+          "$type": "color",
+          "$description": "Secondary surface"
+        }
+      }
+    },
+    "elevation": {
+      "none": {
+        "$value": 0,
+        "$type": "number",
+        "$description": "No elevation"
+      },
+      "xs": {
+        "$value": 2,
+        "$type": "number",
+        "$description": "Extra small elevation"
+      },
+      "sm": {
+        "$value": 4,
+        "$type": "number",
+        "$description": "Small elevation"
+      },
+      "md": {
+        "$value": 6,
+        "$type": "number",
+        "$description": "Medium elevation"
+      },
+      "lg": {
+        "$value": 8,
+        "$type": "number",
+        "$description": "Large elevation"
+      },
+      "xl": {
+        "$value": 10,
+        "$type": "number",
+        "$description": "Extra large elevation"
+      },
+      "2x": {
+        "$value": 10,
+        "$type": "number",
+        "$description": "2x elevation"
+      }
+    },
+    "input": {
+      "background": {
+        "default": {
+          "$value": "{surface.container.primary}",
+          "$type": "color",
+          "$description": "Input background default"
+        },
+        "focused": {
+          "$value": "{surface.container.primary}",
+          "$type": "color",
+          "$description": "Input background focused"
+        },
+        "error": {
+          "$value": "{surface.container.primary}",
+          "$type": "color",
+          "$description": "Input background error"
+        }
+      },
+      "border": {
+        "default": {
+          "$value": "{surface.container.primary}",
+          "$type": "color",
+          "$description": "Input border default"
+        },
+        "focused": {
+          "$value": "{surface.container.primary}",
+          "$type": "color",
+          "$description": "Input border focused"
+        },
+        "error": {
+          "$value": "{surface.container.primary}",
+          "$type": "color",
+          "$description": "Input border error"
+        }
+      },
+      "text": {
+        "placeholder": {
+          "$value": "{surface.container.primary}",
+          "$type": "color",
+          "$description": "Input placeholder text"
+        },
+        "label": {
+          "$value": "{surface.container.primary}",
+          "$type": "color",
+          "$description": "Input label text"
+        },
+        "helper": {
+          "$value": "{surface.container.primary}",
+          "$type": "color",
+          "$description": "Input helper text"
+        },
+        "error": {
+          "$value": "{surface.container.primary}",
+          "$type": "color",
+          "$description": "Input error text"
+        }
+      }
+    },
+    "fill": {
+      "primary": {
+        "$value": "{seasonal.seasonal-color-1}",
+        "$type": "color",
+        "$description": "Primary fill"
+      },
+      "secondary": {
+        "$value": "{seasonal.seasonal-color-1}",
+        "$type": "color",
+        "$description": "Secondary fill"
+      },
+      "tertiary": {
+        "$value": "{seasonal.seasonal-color-1}",
+        "$type": "color",
+        "$description": "Tertiary fill"
+      },
+      "quaternary": {
+        "$value": "{seasonal.seasonal-color-1}",
+        "$type": "color",
+        "$description": "Quaternary fill"
+      }
+    },
+    "list": {
+      "table": {
+        "default": {
+          "$value": "{text.on-container.primary}",
+          "$type": "color",
+          "$description": "Table list default"
+        },
+        "selected": {
+          "$value": "{text.on-container.primary}",
+          "$type": "color",
+          "$description": "Table list selected"
+        },
+        "highlighted": {
+          "$value": "{text.on-container.primary}",
+          "$type": "color",
+          "$description": "Table list highlighted"
+        },
+        "swipe-action": {
+          "$value": "{text.on-container.primary}",
+          "$type": "color",
+          "$description": "Table list swipe action"
+        },
+        "header": {
+          "$value": "{text.on-container.primary}",
+          "$type": "color",
+          "$description": "Table list header"
+        },
+        "footer": {
+          "$value": "{text.on-container.primary}",
+          "$type": "color",
+          "$description": "Table list footer"
+        }
+      }
+    },
+    "navigation": {
+      "titlecolor": {
+        "$value": "{seasonal.seasonal-color-5}",
+        "$type": "color",
+        "$description": "Navigation title color"
+      },
+      "buttontint": {
+        "$value": "{seasonal.seasonal-color-5}",
+        "$type": "color",
+        "$description": "Navigation button tint"
+      },
+      "backindicator": {
+        "$value": "{seasonal.seasonal-color-5}",
+        "$type": "color",
+        "$description": "Navigation back indicator"
+      }
+    },
+    "spacing": {
+      "spacing0": {
+        "$value": 0,
+        "$type": "number",
+        "$description": "0"
+      },
+      "spacing1": {
+        "$value": 1,
+        "$type": "number",
+        "$description": "1"
+      },
+      "spacing2": {
+        "$value": 2,
+        "$type": "number",
+        "$description": "2"
+      },
+      "spacing3": {
+        "$value": 4,
+        "$type": "number",
+        "$description": "4"
+      },
+      "spacing4": {
+        "$value": 6,
+        "$type": "number",
+        "$description": "6"
+      },
+      "spacing5": {
+        "$value": 8,
+        "$type": "number",
+        "$description": "8"
+      },
+      "spacing6": {
+        "$value": 12,
+        "$type": "number",
+        "$description": "12"
+      },
+      "spacing7": {
+        "$value": 16,
+        "$type": "number",
+        "$description": "16"
+      },
+      "spacing8": {
+        "$value": 20,
+        "$type": "number",
+        "$description": "20"
+      },
+      "spacing9": {
+        "$value": 24,
+        "$type": "number",
+        "$description": "24"
+      },
+      "spacing10": {
+        "$value": 28,
+        "$type": "number",
+        "$description": "28"
+      },
+      "content": {
+        "padding": {
+          "list-item": {
+            "$value": 16,
+            "$type": "number",
+            "$description": "List item padding"
+          },
+          "card": {
+            "$value": 8,
+            "$type": "number",
+            "$description": "Card padding"
+          },
+          "section": {
+            "$value": 16,
+            "$type": "number",
+            "$description": "Section padding"
+          },
+          "stack": {
+            "$value": 16,
+            "$type": "number",
+            "$description": "Stack padding"
+          }
+        },
+        "inset": {
+          "horizontal": {
+            "$value": 28,
+            "$type": "number",
+            "$description": "Horizontal inset"
+          },
+          "vertical": {
+            "$value": 28,
+            "$type": "number",
+            "$description": "Vertical inset"
+          }
+        },
+        "safe-area": {
+          "bottom": {
+            "$value": 16,
+            "$type": "number",
+            "$description": "Safe area bottom"
+          },
+          "top": {
+            "$value": 16,
+            "$type": "number",
+            "$description": "Safe area top"
+          }
+        }
+      }
+    },
+    "tabbar": {
+      "itemactive": {
+        "$value": "{seasonal.seasonal-color-1}",
+        "$type": "color",
+        "$description": "Tab bar item active"
+      },
+      "iteninactive": {
+        "$value": "{seasonal.seasonal-color-1}",
+        "$type": "color",
+        "$description": "Tab bar item inactive"
+      },
+      "badgetext": {
+        "$value": "{seasonal.seasonal-color-1}",
+        "$type": "color",
+        "$description": "Tab bar badge text"
+      },
+      "badgebackground": {
+        "$value": "{seasonal.seasonal-color-1}",
+        "$type": "color",
+        "$description": "Tab bar badge background"
+      }
+    },
+    "tint-color": {
+      "primary": {
+        "$value": "{seasonal.seasonal-color-1}",
+        "$type": "color",
+        "$description": "Primary tint"
+      },
+      "secondary": {
+        "$value": "{seasonal.seasonal-color-1}",
+        "$type": "color",
+        "$description": "Secondary tint"
+      },
+      "tertiary": {
+        "$value": "{seasonal.seasonal-color-1}",
+        "$type": "color",
+        "$description": "Tertiary tint"
+      },
+      "quaternary": {
+        "$value": "{seasonal.seasonal-color-1}",
+        "$type": "color",
+        "$description": "Quaternary tint"
+      }
+    }
+  }
+}
